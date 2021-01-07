@@ -1,5 +1,15 @@
 # ProjetWeb B2A Site E-COMMERCE
-## BOUDEAU & MILANESE
+
+
+## Technologie 
+
+### HTML/CSS 
+### PHP / MYSQL
+### JAVASCRIPT
+### GIT
+
+
+### Croquis du site
 
     • la page produit contient :
         o l'image du produit
@@ -64,7 +74,7 @@
         o Captcha(pas sur)
         o 
 
-__
+
 
 Partie administrateur
     ________________________________________________________________________________________
@@ -98,3 +108,5 @@ Partie administrateur
     • les administrateurs peuvent consulter :
                     ▪ les achats de produits
                     ▪ les factures en PDF
+
+## BOUDEAU & MILANESE
