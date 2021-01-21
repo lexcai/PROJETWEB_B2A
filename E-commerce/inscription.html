@@ -110,18 +110,18 @@
   <body class="container-fluid windows">
     <div class="container content" style="margin-top:5%;">
              
-       <div class="title_page">Inscrivez-vous</div>
+       <div class="title_page" style="text-align:center;font-weight:bold;">Inscrivez-vous</div>
        
        <form style="margin-left:4%;" method="" action="">
           <div class="row">
              <div class="col-6">
-                <label for="pseudo" style="" class="input_form">
+                <label for="pseudo" class="md-form">
                    <div>Nom utilisateur</div>
                    <input name="pseudo" type="text" required/>
                 </label>
              </div>
              <div class="col-6">
-                <label for="mail" style="" class="input_form">
+                <label for="mail"  class="md-form">
                    <div>Adresse Email</div>
                    <input name="mail" type="text" required/>
                 </label>
@@ -129,13 +129,13 @@
           </div>
           <div class="row">
              <div class="col-6">
-                <label for="mdp" style="" class="input_form">
+                <label for="mdp" class="md-form">
                    <div>Mot de passe</div>
                    <input name="mdp" type="text" required/>
                 </label>
              </div>
              <div class="col-6">
-                <label for="pays" style="" class="input_form">
+                <label for="pays" class="md-form">
                    <div>Pays</div>
                    <input name="pays" type="text" required/>
                 </label>
@@ -143,20 +143,20 @@
           </div>
           <div class="row">
              <div class="col-6" style="padding-top:5%;">
-                <label for="sexe" style="" class="input_form">
+                <label for="sexe">
                    <input name="sex" type="radio" value="H"> Homme <input type="radio" name="sex" value="F"> Femme
                 </label>
              </div>
-             <div class="col-6" style="padding-left:0;">
-                <label for="age" class="input_form">
+             <div class="col-6" >
+                <label for="age" class="md-form">
                    <div>Votre âge</div>
-                   <input class="age" name="age" type="text" required/>
+                   <input  name="age" type="text" required/>
                 </label>
              </div>
           </div>
           <div class=div_buttons>
-             <input class="inscription_boutons" type="button" name="home" value="Retour" onclick="self.location.href='./index.html'">
-             <input class="inscription_boutons" type="submit" name="inscription_membre"/>
+             <input class="btn btn-primary" type="button" name="home" value="Retour" onclick="self.location.href='./index.html'">
+             <input class="btn btn-primary" type="submit" name="inscription_membre"/>
           </div>
        </form>
     </div>      

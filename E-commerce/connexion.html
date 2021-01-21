@@ -119,24 +119,24 @@
     <div class="container-fluid windows">
        <div class="container content" style="margin-top:5%;">  
             
-            <div class="title_page">Connectez-vous</div>
+            <div class="title_page" style="font-weight: bold;">Connectez-vous</div>
 
-            <form action="../php/connexion.php" method="post">
-                <label class="input_connexion">
+            <form action="" method="">
+                <label class="md-form">
                     <div>Nom utilisateur</div>
                     <input type="text" name="pseudo" required />
                 </label>
-
-                <label class="input_connexion">
+                <br>
+                <label class="md-form">
                     <div>Mot de passe</div>
                     <input type="password" name="mdp" required />
                 </label>
-                
-                <button class="valider_bouton" style="height:50px;margin:5%;margin-left:33%;" type="submit">Valider</button>
+                <br>
+                <button class="btn btn-primary" style="height:5%; center;" type="submit">Valider</button>
             </form>
 
             <!-- renvoi vers page miss_password.html -->
-            <button class='mdp' onclick="window.location.href='miss_password.html'">Mot de passe oubli&eacute;?</button>
+            <button class='btn btn-primary' onclick="window.location.href='miss_password.html'">Mot de passe oubli&eacute;?</button>
         
         </div>
 
