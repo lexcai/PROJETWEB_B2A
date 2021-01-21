@@ -4,7 +4,7 @@
 ## Technologie 
 
 ### HTML/CSS 
-### PHP / MYSQL
+### PHP LARAVEL / MYSQL
 ### JAVASCRIPT
 ### GIT
 
@@ -15,7 +15,6 @@
         o l'image du produit
         o le nom du produit
         o le prix du produit
-        o la note moyenne
         o les avis des acheteurs
         o un bouton d’achat
         o un formulaire pour ajouter/modifier son avis (si le membre a déjà acheté des articles)
@@ -42,28 +41,34 @@
     • la page de paiement contient :
         o Informations carte
         o Payer
-        o 
-        o 
-        o 
-        o 
+        o Adresse membre 
+        o Adresse 2
+        o Nom
+        o Prenom
+        o Username
+        o EMAIL
+        o Pays
+        o Bouton enregistrement carte
+        o Bouton different type de paiement
+        o Nom sur la carte 
+        o N° de carte
 
     • les utilisateurs peuvent se créer un compte et se connecter. Ils pourront compléter et CRUD leur profil 
         o chaque profil utilisateur possède :
-            :black_small_square: un prénom
-            :black_small_square: un nom
-            :black_small_square: une adresse email
-            :black_small_square: une date de naissance
-            :black_small_square: ajout de moyen de paiement ( Je dirai plus paiements direct pas d'entregistrement de cartes dans la bdd
+            ▪ un prénom
+            ▪ un nom
+            ▪ une adresse email
+            ▪ une date de naissance
+            ▪ ajout de moyen de paiement ( Je dirai plus paiements direct pas d'entregistrement de cartes dans la bdd
         mot de passe !
 
 
     • la page d’inscription / connexion contient :
-            :black_small_square: un prénom
-            :black_small_square: un nom
-         mot de passe !
-            :black_small_square: une adresse email
-            :black_small_square: une date de naissance
-            :black_small_square: ajout de moyen de paiement
+            ▪ un prénom
+            ▪ un nom
+            ▪ mot de passe !
+            ▪ une adresse email
+            ▪ ajout de moyen de paiement
     •    Captcha(pas sur)
 
     • la page de connexion contient :
